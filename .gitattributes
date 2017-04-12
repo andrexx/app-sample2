@@ -1,0 +1,4 @@
+# When merging always keep the edm-web-ui.nuspec file
+# To set up the merge strategy, run:
+# git config --global merge.ours.driver true
+edm-web-ui.nuspec merge=ours
